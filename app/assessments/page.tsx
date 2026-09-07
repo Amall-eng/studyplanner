@@ -54,7 +54,7 @@ export default function AssessmentsPage() {
 
          <input
            type="text"
-           placeholder="e.g., Homework 2, Midterm Chapter 3"
+           placeholder="e.g.,Math HW, English Midterm "
            value={name}
            onChange={(e) => setName(e.target.value)}
          />
